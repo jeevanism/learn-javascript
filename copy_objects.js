@@ -36,7 +36,7 @@ console.log(me.socials.twitter); // prints @johnvick
 console.log(myFriend.socials.twitter); // prints @johnvick
 
 /**
- * In order  reach the desired output, we can rewrite code as below
+ * In order to reach the desired output, we can rewrite code as below
  *
  */
 
@@ -45,7 +45,7 @@ const myFriendd = {...mee, socials:{...mee.socials}}  // Create a copy of me.soc
 myFriendd.name = "John"
 myFriendd.socials.twitter = "@johnvick"
 
-console.log(mee.name)
-console.log(mee.socials.twitter)
-console.log(myFriendd.name)
-console.log(myFriendd.socials.twitter)
+console.log(mee.name) // "jeevan"
+console.log(mee.socials.twitter) //"@jeevanism"
+console.log(myFriendd.name) // "John"
+console.log(myFriendd.socials.twitter) // "johnvick"
